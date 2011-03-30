@@ -27,7 +27,7 @@ hi def link     xabslConditional       Conditional
 hi def link     xabslLabel             Label
 
 " Predefined types
-syn keyword     xabslType              bool enum
+syn keyword     xabslType              bool enum true false
 syn keyword     xabslFloats            float
 "syn keyword     xabslComplexes         \@
 
@@ -37,10 +37,10 @@ hi def link     xabslFloats            Type
 
 " Predefined functions and values
 "syn keyword     xabslBuiltins          ???
-syn keyword     xabslConstants         true false
+"syn keyword     xabslConstants         true false
 
 "hi def link     xabslBuiltins          Keyword
-hi def link     xabslConstants         Keyword
+"hi def link     xabslConstants         Keyword
 
 " Comments; their contents
 syn keyword     xabslTodo              contained TODO FIXME XXX BUG
